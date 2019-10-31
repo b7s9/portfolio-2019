@@ -3,18 +3,29 @@
     --tablet-min-w: 48rem;
 }
 
-html {
-    
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+}
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        -ms-flex: 1;
+        flex: 1;
+    }
 }
 
-body {
+.overflow-hidden { overflow: hidden; }
+
+body.bg-anim {
     background: linear-gradient(270deg, #2657a2, #2e6173, #3f754c);
     background-size: 600% 600%;
     
     -webkit-animation: bgAnim 35s ease infinite;
     -moz-animation: bgAnim 35s ease infinite;
     animation: bgAnim 35s ease infinite;
-    
+}
+
+body {
     margin-top: 3.5rem;
 }
 
@@ -36,7 +47,6 @@ nav a.navbar-brand {
     color: #fff;
     background-color: rgba(0,0,0,0);
     border-bottom: 6px solid rgba(40,40,40,0.3);
-
 }
 
 main {
@@ -60,6 +70,11 @@ main div.container.directory div.row div.col a:focus {
     opacity: 0.95;
     text-decoration: none;
     border-bottom: 1px solid var(--light);
+}
+
+div.jumbotron h1 {
+    font-weight: 100;
+    font-size: 6rem;
 }
 
 @media screen and (max-width : 48rem){
