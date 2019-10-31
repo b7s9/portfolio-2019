@@ -1,6 +1,6 @@
 var options = {
   strings: ['_', '_b7s9', '_Ben Schenerman'],
-  typeSpeed: 110,
+  typeSpeed: 100,
   backSpeed: 40
 };
 

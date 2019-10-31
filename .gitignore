@@ -66,3 +66,6 @@ _secret
 secret.*
 assets
 lib
+_site/
+assets/js/
+*.min.js
