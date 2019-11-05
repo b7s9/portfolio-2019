@@ -1,9 +1,25 @@
 {
-  "pages" : [
+  "projects" : [
     {
       "title" : "Domain Pricing Game",
       "subtitle" : "Accessibility, UX Research, Responsive UI, Front-End",
-      "text" : "The Domain Pricing Game is an independent study in accessible front-end web technologies. The goal was to redesign the interface of an existing game made by Twitter user Martin O’Leary (@mewo2) to facilitate a more accessible experience. I taught myself how to use VoiceOver (the native MacOS screen reader), how to design atomic interfaces so the browser can properly interpret the interface markup for screen readers, and how to properly interface with the Accessible Rich Internet Applications (ARIA) web API when additional accessibility features are necessary. I also became active in the #a11y (accessibility) community on Twitter, where I have gleaned valuable anecdotes from disabled designers, developers, and user experience researchers seeking to create a more accessible web experience for all. <br>Warning: Feedback from User Experience research sessions suggest this game is highly addictive!"
+      "link" : "https://benschenerman.com/a11y/alpha/",
+      "linkTitle" : "View Alpha Release",
+      "description" : [
+        "The Domain Pricing Game is an independent study in accessible front-end web technologies. The goal was to redesign the interface of an existing game made by Twitter user Martin O’Leary (@mewo2) to facilitate a more accessible experience. I taught myself how to use VoiceOver (the native MacOS screen reader), how to design atomic interfaces so the browser can properly interpret the interface markup for screen readers, and how to properly interface with the Accessible Rich Internet Applications (ARIA) web API when additional accessibility features are necessary. I also became active in the #a11y (accessibility) community on Twitter, where I have gleaned valuable anecdotes from disabled designers, developers, and user experience researchers seeking to create a more accessible web experience for all.",
+        "Warning: Feedback from User Experience research sessions suggest this game is highly addictive!"
+      ],
+      "assetURI" : "assets/img/domain-pricing-game/",
+      "images" : [
+        {
+          "link" : "iphone-1.png",
+          "alt" : "Initial Game View"
+        },
+        {
+          "link" : "iphone-2.png",
+          "alt" : "Mid-game View"
+        }
+      ]
     }
   ]
 }

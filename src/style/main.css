@@ -16,13 +16,19 @@
 
 .overflow-hidden { overflow: hidden; }
 
-body.bg-anim {
+.bg-anim {
     background: linear-gradient(270deg, #2657a2, #2e6173, #3f754c);
     background-size: 600% 600%;
     
     -webkit-animation: bgAnim 35s ease infinite;
     -moz-animation: bgAnim 35s ease infinite;
     animation: bgAnim 35s ease infinite;
+}
+
+.bg-anim.fast {
+    -webkit-animation: bgAnim 10s ease infinite;
+    -moz-animation: bgAnim 10s ease infinite;
+    animation: bgAnim 10s ease infinite;
 }
 
 body {
@@ -75,6 +81,18 @@ main div.container.directory div.row div.col a:focus {
 div.jumbotron h1 {
     font-weight: 100;
     font-size: 6rem;
+}
+
+.gallery .screenshot img {
+    width: 50%;
+}
+
+.bg-dark a{
+    color: var(--orange);
+}
+
+.bg-dark a:hover, .bg-dark a:focus, .bg-dark a:active{
+    color: #aa5c20
 }
 
 @media screen and (max-width : 48rem){

@@ -1,0 +1,41 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+{% include "partials/_nav.njk" %}
+
+<div class="position-relative overflow-hidden container-fluid text-center bg-dark text-light">
+    <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal mb-5">{{ project.title }}</h1>
+        <p class="lead font-weight-normal text-gray">{{ project.subtitle }}</p>
+        <a href="{{ project.link }}" target="_blank">{{ project.linkTitle }} <i class="fa fa-link"></i></a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>   
+
+<div class="gallery d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 py-2">
+
+    {% for image in project.images %}
+        <div class="screenshot mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden mb-4">
+            <img src="{{ project.assetURI }}{{ image.link }}" alt="{{ image.alt }}">
+        </div>
+    {% endfor %}
+
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="text-left px-5 col-md-9 mx-auto">
+        <h2>About</h2>
+        <hr>
+        {% for paragraph in project.description %}
+            <p>{{paragraph}}</p>
+        {% endfor %}
+    </div>
+</div>
+
+<footer class="container-fluid bg-anim fast py-2">
+</footer>
+{% endblock %}
+
+{% block scriptsAsync %}
+{% endblock %}
