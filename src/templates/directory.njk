@@ -13,23 +13,59 @@
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>   
 
-<div class="directory d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+<div class="directory my-md-3 pl-md-3 container-fluid">
+    {# <div class="row"> #}
 
-    {% for project in projects %}
+    <div class="row">
+        {# <div class="p-2 bg-light"> #}
+        
+        {% for project in projects %}
+
+            {% if loop.index0 < 3 %}
+                
+                <div class="gallery col-sm-12 col-md-4 col-lg-4 my-sm-3 rounded-lg border border-white bg-light text-center overflow-hidden">
+                    <a href="{{ project.pageURI }}" class="py-2 pt-3 px-3 pt-md-5 px-md-4">
+                        <div class="my-3 p-3">
+                            <h2 class="display-5">{{ project.shortTitle }}</h2>
+                            <p class="lead">{{ project.subtitle }}</p>
+                        </div>
+                        <div class="screenshot">
+                            <img src="{{ project.assetURI }}{{ project.images[0].link }}" alt="{{ project.images[0].alt }}">
+                        </div>
+                    </a>            
+                </div>
     
-        <div class="gallery py-2 my-sm-3 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 shadow-sm bg-light text-center overflow-hidden">
-            <a href="{{ project.pageURI }}">
-                <div class="my-3 p-3">
-                    <h2 class="display-5">{{ project.title }}</h2>
-                    <p class="lead">{{ project.subtitle }}</p>
+            {% endif %}
+                
+        {% endfor %}  
+                
+        {# </div> #}
+    </div>
+
+    <div class="row">
+        {% for project in projects %}
+
+            {% if loop.index0 >= 3 %}
+        
+                <div class="gallery col-sm-12 col-md-4 col-lg-4 my-sm-3 rounded-lg border border-white bg-light text-center overflow-hidden">
+                    <a href="{{ project.pageURI }}" class="py-2 pt-3 px-3 pt-md-5 px-md-4">
+                        <div class="my-3 p-3">
+                            <h2 class="display-5">{{ project.shortTitle }}</h2>
+                            <p class="lead">{{ project.subtitle }}</p>
+                        </div>
+                        <div class="screenshot">
+                            <img src="{{ project.assetURI }}{{ project.images[0].link }}" alt="{{ project.images[0].alt }}">
+                        </div>
+                    </a>            
                 </div>
-                <div class="screenshot">
-                    <img src="{{ project.assetURI }}{{ project.images[0].link }}" alt="{{ project.images[0].alt }}">
-                </div>
-            </a>
-            
-        </div>
-    {% endfor %}    
+    
+            {% endif %}
+    
+        {% endfor %}  
+
+    </div>
+
+      
 
 </div>
 
@@ -37,5 +73,6 @@
 </footer>
 {% endblock %}
 
-{% block scriptsAsync %}
-{% endblock %}
+{# {% block scriptsAsync %}
+    <script src="assets/js/hover.js"></script>
+{% endblock %} #}

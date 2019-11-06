@@ -4,4 +4,5 @@ var options = {
   backSpeed: 40
 };
 
+// eslint-disable-next-line no-unused-vars, no-undef
 var typed = new Typed('h1 span.marquee', options);

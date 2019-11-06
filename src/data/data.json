@@ -1,21 +1,18 @@
 {
   "portfolios" : [
     {
-      "title" : "www",
+      "title" : "Portfolio | www",
       "subtitle" : "Front-End, Back-End, Full Stack Web Development, Web Design, User Experience Research, Accessible Design"
     }
   ],
   "projects" : [
     {
       "title" : "Domain Pricing Game",
+      "shortTitle" : "Domain Pricing",
       "subtitle" : "Accessibility, UX Research, Responsive UI, Front-End",
       "link" : "https://benschenerman.com/a11y/alpha/",
       "linkTitle" : "View Alpha Release",
       "pageURI" : "domain-pricing.html",
-      "description" : [
-        "The Domain Pricing Game is an independent study in accessible front-end web technologies. The goal was to redesign the interface of an existing game made by Twitter user Martin O’Leary (https://twitter.com/mewo2) to facilitate a more accessible experience. I taught myself how to use VoiceOver (the native MacOS screen reader), how to design atomic interfaces so the browser can properly interpret the interface markup for screen readers, and how to properly interface with the Accessible Rich Internet Applications (ARIA) web API when additional accessibility features are necessary. I also became active in the #a11y (accessibility) community on Twitter, where I have gleaned valuable anecdotes from disabled designers, developers, and user experience researchers seeking to create a more accessible web experience for all.",
-        "Warning: Feedback from User Experience research sessions suggest this game is highly addictive!"
-      ],
       "assetURI" : "assets/img/domain-pricing-game/",
       "images" : [
         {
@@ -29,14 +26,50 @@
       ]
     },
     {
+      "title" : "Soundcheck",
+      "shortTitle" : "Soundcheck",
+      "subtitle" : "Mobile UI, Front-End",
+      "link" : "https://benschenerman.com/idm361/hwk02/screens/",
+      "linkTitle" : "View Screen Designs",
+      "pageURI" : "soundcheck.html",      
+      "assetURI" : "assets/img/soundcheck/",
+      "images" : [
+        {
+          "link" : "iphone-1.png",
+          "alt" : "Initial app marquee"
+        },
+        {
+          "link" : "iphone-2.png",
+          "alt" : "Stereo Pan view"
+        }
+      ]
+    },
+    {
+      "title" : "HELP Loan Pre-Application",
+      "shortTitle" : "HELP Loan",
+      "subtitle" : "Responsive UI, Front-End",
+      "link" : "http://www.philadelphiawater.org/helploan/",
+      "linkTitle" : "View Live Website",
+      "pageURI" : "help-loan.html",
+      "assetURI" : "assets/img/help-loan/",
+      "images" : [
+        {
+          "link" : "iphone-1.png",
+          "alt" : "Form View (Spanish)"
+        },
+        {
+          "link" : "iphone-2.png",
+          "alt" : "Informational View"
+        }
+      ]
+    },
+    {
       "title" : "Füd",
+      "shortTitle" : "Füd",
       "subtitle" : "Back-End, Front-End",
       "link" : "https://benschenerman.com/idm232",
       "linkTitle" : "View Beta Release",
       "pageURI" : "fud.html",
-      "description" : [
-        "Füd is a prototype example of a recipe website database, server and interface. I spent a majority of my time focusing on coding standards, asset optimization, and performance features that modern users tend to expect, including asynchronous (AJAX) database queries with immediate feedback in the front-end user interface. Over ten weeks, I maintained an extremely organized git repository (https://github.com/b7s9/idm232-bjs369), taught myself important security features of git, and created some nifty command line scripts I can keep in my back pocket, for future use when optimizing assets for more accessible web experiences."
-      ],
       "assetURI" : "assets/img/fud/",
       "images" : [
         {
@@ -46,6 +79,44 @@
         {
           "link" : "iphone-2.png",
           "alt" : "Recipe detail view"
+        }
+      ]
+    },
+    {
+      "title" : "Kami",
+      "shortTitle" : "Kami",
+      "subtitle" : "UX Research, Mobile UI, Photography, Branding",
+      "link" : "",
+      "linkTitle" : "",
+      "pageURI" : "kami.html",
+      "assetURI" : "assets/img/kami/",
+      "images" : [
+        {
+          "link" : "iphone-1.png",
+          "alt" : "Menu item expanded view"
+        },
+        {
+          "link" : "iphone-2.png",
+          "alt" : "Settings view"
+        }
+      ]
+    },
+    {
+      "title" : "Customer Assistance Program Information Page",
+      "shortTitle" : "CAP",
+      "subtitle" : "Responsive UI, Front-End",
+      "link" : "https://cap.phila.gov/static/index.html",
+      "linkTitle" : "View Updated Website",
+      "pageURI" : "cap.html",
+      "assetURI" : "assets/img/cap/",
+      "images" : [
+        {
+          "link" : "iphone-1.png",
+          "alt" : "Masthead and Lead"
+        },
+        {
+          "link" : "iphone-2.png",
+          "alt" : "Footer"
         }
       ]
     }
