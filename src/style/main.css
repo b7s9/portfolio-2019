@@ -35,16 +35,6 @@ body {
     margin-top: 3.5rem;
 }
 
-/* a {
-    color: var(--light);
-    opacity: 0.5;
-}
-
-a:hover, a:focus {
-    color: var(--light);
-    opacity: 0.75;
-} */
-
 nav a.navbar-brand {
     color: var(--light);
 }
@@ -92,7 +82,7 @@ div.jumbotron h1 {
 }
 
 .bg-dark a:hover, .bg-dark a:focus, .bg-dark a:active{
-    color: #aa5c20
+    color: #b46222;
 }
 
 @media screen and (max-width : 48rem){

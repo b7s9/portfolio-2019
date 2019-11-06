@@ -24,12 +24,10 @@
 </div>
 
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="text-left px-5 col-md-9 mx-auto">
+    <div class="text-left px-5 col-md-9 mx-auto my-3 my-sm-5">
         <h2>About</h2>
         <hr>
-        {% for paragraph in project.description %}
-            <p>{{paragraph}}</p>
-        {% endfor %}
+        {% block description %}{% endblock %}
     </div>
 </div>
 
