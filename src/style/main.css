@@ -77,11 +77,11 @@ div.jumbotron h1 {
     width: 50%;
 }
 
-.bg-dark a{
+.bg-dark .lead + a{
     color: var(--orange);
 }
 
-.bg-dark a:hover, .bg-dark a:focus, .bg-dark a:active{
+.bg-dark .lead + a:hover, .bg-dark .lead + a:focus, .bg-dark .lead + a:active{
     color: #b46222;
 }
 
