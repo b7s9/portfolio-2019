@@ -49,7 +49,7 @@
       "shortTitle" : "HELP Loan",
       "subtitle" : "Responsive UI, Front-End",
       "link" : "http://www.philadelphiawater.org/helploan/",
-      "linkTitle" : "View Live Website",
+      "linkTitle" : "View Final Release",
       "pageURI" : "help-loan.html",
       "assetURI" : "assets/img/help-loan/",
       "images" : [
@@ -106,7 +106,7 @@
       "shortTitle" : "CAP",
       "subtitle" : "Responsive UI, Front-End",
       "link" : "https://cap.phila.gov/static/index.html",
-      "linkTitle" : "View Updated Website",
+      "linkTitle" : "View Updated Release",
       "pageURI" : "cap.html",
       "assetURI" : "assets/img/cap/",
       "images" : [
