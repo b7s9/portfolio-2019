@@ -1,122 +1,113 @@
 {
-  "portfolios" : [
-    {
-      "title" : "Portfolio | www",
-      "subtitle" : "Front-End, Back-End, Full Stack Web Development, Web Design, User Experience Research, Accessible Design"
-    }
-  ],
-  "projects" : [
-    {
-      "title" : "Domain Pricing Game",
-      "shortTitle" : "Domain Pricing",
-      "subtitle" : "Accessibility, UX Research, Responsive UI, Front-End",
-      "link" : "https://benschenerman.com/a11y/alpha/",
-      "linkTitle" : "View Alpha Release",
-      "pageURI" : "domain-pricing.html",
-      "assetURI" : "assets/img/domain-pricing-game/",
-      "images" : [
-        {
-          "link" : "iphone-1.png",
-          "alt" : "Initial game view"
+  "portfolios": [{
+    "title": "Portfolio | www",
+    "subtitle": "Front-End, Back-End, Full Stack Web Development, Web Design, User Experience Research, Accessible Design"
+  }],
+  "projects": [{
+      "title": "One Thing to Do",
+      "shortTitle": "One Thing to Do",
+      "subtitle": "Responsive UI, Front-End, Back-end",
+      "link": "https://github.com/b7s9/one-thing-to-do",
+      "linkTitle": "View repository",
+      "pageURI": "ottd.html",
+      "assetURI": "assets/img/ottd/",
+      "images": [{
+          "link": "iphone-1.png",
+          "alt": "Initial game view"
         },
         {
-          "link" : "iphone-2.png",
-          "alt" : "Mid-game view"
+          "link": "iphone-2.png",
+          "alt": "Mid-game view"
         }
       ]
     },
     {
-      "title" : "Soundcheck",
-      "shortTitle" : "Soundcheck",
-      "subtitle" : "Mobile UI, Front-End",
-      "link" : "https://benschenerman.com/idm361/hwk05",
-      "linkTitle" : "View Alpha Release",
-      "pageURI" : "soundcheck.html",      
-      "assetURI" : "assets/img/soundcheck/",
-      "images" : [
-        {
-          "link" : "iphone-1.png",
-          "alt" : "Initial app marquee"
+      "title": "Soundcheck",
+      "shortTitle": "Soundcheck",
+      "subtitle": "Mobile UI, Front-End",
+      "link": "https://benschenerman.com/idm361/hwk05",
+      "linkTitle": "View Alpha Release",
+      "pageURI": "soundcheck.html",
+      "assetURI": "assets/img/soundcheck/",
+      "images": [{
+          "link": "iphone-1.png",
+          "alt": "Initial app marquee"
         },
         {
-          "link" : "iphone-2.png",
-          "alt" : "Stereo Pan view"
+          "link": "iphone-2.png",
+          "alt": "Stereo Pan view"
         }
       ]
     },
     {
-      "title" : "HELP Loan Pre-Application",
-      "shortTitle" : "HELP Loan",
-      "subtitle" : "Responsive UI, Front-End",
-      "link" : "http://www.philadelphiawater.org/helploan/",
-      "linkTitle" : "View Final Release",
-      "pageURI" : "help-loan.html",
-      "assetURI" : "assets/img/help-loan/",
-      "images" : [
-        {
-          "link" : "iphone-1.png",
-          "alt" : "Form View (Spanish)"
+      "title": "HELP Loan Pre-Application",
+      "shortTitle": "HELP Loan",
+      "subtitle": "Responsive UI, Front-End",
+      "link": "http://www.philadelphiawater.org/helploan/",
+      "linkTitle": "View Final Release",
+      "pageURI": "help-loan.html",
+      "assetURI": "assets/img/help-loan/",
+      "images": [{
+          "link": "iphone-1.png",
+          "alt": "Form View (Spanish)"
         },
         {
-          "link" : "iphone-2.png",
-          "alt" : "Informational View"
+          "link": "iphone-2.png",
+          "alt": "Informational View"
         }
       ]
     },
     {
-      "title" : "Füd",
-      "shortTitle" : "Füd",
-      "subtitle" : "Back-End, Front-End",
-      "link" : "https://benschenerman.com/idm232",
-      "linkTitle" : "View Beta Release",
-      "pageURI" : "fud.html",
-      "assetURI" : "assets/img/fud/",
-      "images" : [
-        {
-          "link" : "iphone-1.png",
-          "alt" : "Recipe search view"
+      "title": "Füd",
+      "shortTitle": "Füd",
+      "subtitle": "Back-End, Front-End",
+      "link": "https://benschenerman.com/idm232",
+      "linkTitle": "View Beta Release",
+      "pageURI": "fud.html",
+      "assetURI": "assets/img/fud/",
+      "images": [{
+          "link": "iphone-1.png",
+          "alt": "Recipe search view"
         },
         {
-          "link" : "iphone-2.png",
-          "alt" : "Recipe detail view"
+          "link": "iphone-2.png",
+          "alt": "Recipe detail view"
         }
       ]
     },
     {
-      "title" : "Kami",
-      "shortTitle" : "Kami",
-      "subtitle" : "UX Research, Mobile UI, Photography, Branding",
-      "link" : "",
-      "linkTitle" : "",
-      "pageURI" : "kami.html",
-      "assetURI" : "assets/img/kami/",
-      "images" : [
-        {
-          "link" : "iphone-1.png",
-          "alt" : "Menu item expanded view"
+      "title": "Kami",
+      "shortTitle": "Kami",
+      "subtitle": "UX Research, Mobile UI, Photography, Branding",
+      "link": "",
+      "linkTitle": "",
+      "pageURI": "kami.html",
+      "assetURI": "assets/img/kami/",
+      "images": [{
+          "link": "iphone-1.png",
+          "alt": "Menu item expanded view"
         },
         {
-          "link" : "iphone-2.png",
-          "alt" : "Settings view"
+          "link": "iphone-2.png",
+          "alt": "Settings view"
         }
       ]
     },
     {
-      "title" : "Customer Assistance Program Information Page",
-      "shortTitle" : "CAP",
-      "subtitle" : "Responsive UI, Front-End",
-      "link" : "https://cap.phila.gov/static/index.html",
-      "linkTitle" : "View Updated Release",
-      "pageURI" : "cap.html",
-      "assetURI" : "assets/img/cap/",
-      "images" : [
-        {
-          "link" : "iphone-1.png",
-          "alt" : "Masthead and Lead"
+      "title": "Customer Assistance Program Information Page",
+      "shortTitle": "CAP",
+      "subtitle": "Responsive UI, Front-End",
+      "link": "https://cap.phila.gov/static/index.html",
+      "linkTitle": "View Updated Release",
+      "pageURI": "cap.html",
+      "assetURI": "assets/img/cap/",
+      "images": [{
+          "link": "iphone-1.png",
+          "alt": "Masthead and Lead"
         },
         {
-          "link" : "iphone-2.png",
-          "alt" : "Footer"
+          "link": "iphone-2.png",
+          "alt": "Footer"
         }
       ]
     }
